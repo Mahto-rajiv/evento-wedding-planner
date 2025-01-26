@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento - Wedding and Event Planning</title>
+    <title>Evento - Flower and Lights</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -17,7 +18,10 @@
                 <span></span>
                 <span></span>
             </button>
-            <a href="#" class="logo">Evento</a>
+            <a href="#" class="logo">
+                <i data-lucide="flower"></i>
+                <span>Evento</span>
+            </a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -26,20 +30,21 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <a href="#contact" class="btn btn-primary">Book Now</a>
+            <a href="#" class="btn btn-primary">Book Now</a>
         </div>
     </header>
 
     <main>
-        <section id="home" class="hero hero-bg">
+        <section id="home" class="hero">
             <div class="container">
-                <h1>Your Dream Wedding Awaits</h1>
-                <p>Let us create unforgettable moments for your special day</p>
-                <a href="#contact" class="btn btn-primary">Start Planning</a>
+                <h1>Create Unforgettable Moments</h1>
+                <p>Specializing in elegant floral arrangements and stunning lighting designs for your special events.
+                </p>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
             </div>
         </section>
 
-        <section id="services" class="services">
+        <section id="services" class="services animate-on-scroll">
             <div class="container">
                 <h2>Our Services</h2>
                 <div class="services-grid">
@@ -77,27 +82,23 @@
             </div>
         </section>
 
-        <section id="gallery" class="gallery">
+        <section id="gallery" class="gallery animate-on-scroll">
             <div class="container">
-                <h2>Our Gallery</h2>
+                <h2>Our Work</h2>
                 <div class="gallery-grid">
-                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="Wedding ceremony" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="Wedding reception" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-                        alt="Bride and groom" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="Wedding cake" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                        alt="Concert event" loading="lazy">
-                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
-                        alt="Corporate event" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                        alt="Event 1" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                        alt="Event 2" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                        alt="Event 3" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
+                        alt="Event 4" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact" class="contact animate-on-scroll">
             <div class="container">
                 <h2>Get in Touch</h2>
                 <div class="contact-content">
@@ -124,39 +125,27 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-about">
-                    <h3>About Evento</h3>
-                    <p>Evento is your premier wedding and event planning partner. We create unforgettable experiences
-                        tailored to your unique vision.</p>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Evento specializes in creating magical moments through exquisite floral designs and captivating
+                        lighting setups for all your special events.</p>
                 </div>
-                <div class="footer-links">
+                <div class="footer-section">
                     <h3>Quick Links</h3>
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
+                <div class="footer-section">
                     <h3>Follow Us</h3>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/evento" target="_blank" rel="noopener noreferrer"
-                            aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/evento" target="_blank" rel="noopener noreferrer"
-                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
-                        <a href="https://wa.me/919142513406" target="_blank" rel="noopener noreferrer"
-                            aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
                     </div>
-                </div>
-                <div class="footer-newsletter">
-                    <h3>Subscribe to Our Newsletter</h3>
-                    <form id="newsletter-form">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -165,7 +154,10 @@
         </div>
     </footer>
 
-    <button class="scroll-to-top" aria-label="Scroll to top">&#8593;</button>
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
     <script src="script.js"></script>
 </body>
 

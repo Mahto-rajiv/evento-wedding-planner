@@ -105,10 +105,10 @@ header .container {
   transition: color 0.3s ease;
 }
 
-.logo i {
-  width: 24px;
-  height: 24px;
-  stroke: currentColor;
+.logo-img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .logo-icon {
@@ -125,7 +125,7 @@ header .container {
 
 .logo:hover {
   color: #e91e63;
-  animation: pulse 1s infinite;
+  /* animation: pulse 1s infinite; */
 }
 
 .nav-links {

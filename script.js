@@ -100,4 +100,30 @@ document.addEventListener("DOMContentLoaded", () => {
     .forEach((el) => {
       observer.observe(el);
     });
+
+  const images = [
+    "images/GalleryImages/image1.jpg",
+    "images/GalleryImages/image2.jpg",
+    "images/GalleryImages/image3.jpg",
+    "images/GalleryImages/image4.jpg",
+    "images/GalleryImages/image5.jpg",
+    "images/GalleryImages/image6.jpg",
+    "images/GalleryImages/image7.jpg",
+    "images/GalleryImages/image8.jpg",
+    "images/GalleryImages/image9.jpg",
+    "images/GalleryImages/image10.jpg",
+    "images/GalleryImages/image11.jpg",
+    "images/GalleryImages/image12.jpg",
+    "images/GalleryImages/image13.jpg",
+  ];
+
+  const galleryGrid = document.querySelector(".gallery-grid");
+
+  images.forEach(function (imageSrc) {
+    const img = document.createElement("img");
+    img.src = imageSrc;
+    img.alt = "Event Image";
+    img.classList.add("gallery-img");
+    galleryGrid.appendChild(img);
+  });
 });

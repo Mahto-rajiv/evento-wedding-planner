@@ -106,19 +106,11 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/GalleryImages/image2.jpg",
     "images/GalleryImages/image3.jpg",
     "images/GalleryImages/image4.jpg",
-    "images/GalleryImages/image5.jpg",
-    "images/GalleryImages/image6.jpg",
-    "images/GalleryImages/image7.jpg",
-    "images/GalleryImages/image8.jpg",
-    "images/GalleryImages/image9.jpg",
-    "images/GalleryImages/image10.jpg",
-    "images/GalleryImages/image11.jpg",
-    "images/GalleryImages/image12.jpg",
-    "images/GalleryImages/image13.jpg",
   ];
 
   const galleryGrid = document.querySelector(".gallery-grid");
 
+  // Show only first 4 images on main page
   images.forEach(function (imageSrc) {
     const img = document.createElement("img");
     img.src = imageSrc;
